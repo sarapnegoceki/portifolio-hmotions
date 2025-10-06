@@ -1,0 +1,15 @@
+#btn-navbar.active{
+    span{
+        &:nth-child(1){
+            rotate: 25deg;
+            top: 7px;
+        }
+        &:nth-child(2){
+            right: -200%;
+        }
+        &:nth-child(3){
+            rotate: -25deg;
+            top: 7px;
+        }
+    }
+}

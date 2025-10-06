@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+@theme {
+    --color-blue: #00030B; 
+    --color-ocean-blue: #013FC8;
+    --color-black-screen: #1E1F1F;
+
+    --animate-btn: btn 1s ease-in-out infinite;
+    @keyframes btn {
+        0%,
+        100% {
+            transform: rotate(-3deg);
+        }
+        50% {
+            transform: rotate(3deg);
+        }
+    }
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
